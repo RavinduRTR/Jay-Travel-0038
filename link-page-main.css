@@ -1,0 +1,157 @@
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+
+.header1 {
+    border-bottom:1px dotted #6f6f6f;
+    color: #989696;
+    margin-bottom: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.firstrow {
+    background-color: #ecf3fb;
+    color: #272626;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+img.left{
+    float:right;
+}
+
+img.right{
+    float:right;
+}
+img.conimage{
+    float: left;
+    width: 20px;
+    
+}
+h2.conimage{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+img.conus{
+border-radius: 8px;
+}
+
+
+.fl_left h1, header .fl_left p{margin:0; padding:0; line-height:normal;}
+.fl_left h1{font-size:42px;}
+h1 a{color:#666666; background-color:#FFFFFF;}
+
+h1.head
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:42px;}
+
+h2.head
+{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+li.a {
+    width: 40%;
+    border-right:0px solid #333;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #b11c1c;
+}
+
+
+#topbar{padding:20px 0 0 0;}
+#topbar .fl_left p{margin:0 0 6px 0; padding:0;}
+
+
+    .clear{clear:both;}
+    br.clear{clear:both; margin-top:-15px;}
+
+    .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+p.paragraph{
+    text-align: justify;
+}
+
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+
+    div.wrapper{
+        display:block; position:relative; width: 60%; margin:0 auto;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
